@@ -1,0 +1,22 @@
+{
+  "service": "analytics-worker",
+  "status": "healthy",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "database": "connected",
+    "cache": "healthy",
+    "message_queue": "operational"
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage": 0.60,
+    "tasks_processed_per_minute": 120,
+    "errors_per_minute": 0
+  },
+  "metadata": {
+    "hostname": "worker-node-01",
+    "ip_address": "192.168.1.10"
+  }
+}
